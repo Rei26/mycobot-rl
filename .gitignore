@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env_isaaclab/
+
+# Isaac / Omniverse
+*.log
+*.tmp
+omniverse/
+kit/
+.cache/
+
+# MyCobot ROS
+mycobot_ros2/
+
+# Training outputs
+experiments/logs/
+experiments/checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
